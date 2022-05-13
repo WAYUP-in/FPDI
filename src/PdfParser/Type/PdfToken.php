@@ -8,7 +8,7 @@
  * @license   http://opensource.org/licenses/mit-license The MIT License
  */
 
-namespace setasign\Fpdi\PdfParser\Type;
+namespace Wayup\Fpdi\PdfParser\Type;
 
 /**
  * Class representing PDF token object

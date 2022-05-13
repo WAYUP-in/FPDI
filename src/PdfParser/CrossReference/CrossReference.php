@@ -3,20 +3,20 @@
 /**
  * This file is part of FPDI
  *
- * @package   setasign\Fpdi
- * @copyright Copyright (c) 2020 Setasign GmbH & Co. KG (https://www.setasign.com)
+ * @package   Wayup\Fpdi
+ * @copyright Copyright (c) 2020 Wayup GmbH & Co. KG (https://www.Wayup.com)
  * @license   http://opensource.org/licenses/mit-license The MIT License
  */
 
-namespace setasign\Fpdi\PdfParser\CrossReference;
+namespace Wayup\Fpdi\PdfParser\CrossReference;
 
-use setasign\Fpdi\PdfParser\PdfParser;
-use setasign\Fpdi\PdfParser\Type\PdfDictionary;
-use setasign\Fpdi\PdfParser\Type\PdfIndirectObject;
-use setasign\Fpdi\PdfParser\Type\PdfNumeric;
-use setasign\Fpdi\PdfParser\Type\PdfStream;
-use setasign\Fpdi\PdfParser\Type\PdfToken;
-use setasign\Fpdi\PdfParser\Type\PdfTypeException;
+use Wayup\Fpdi\PdfParser\PdfParser;
+use Wayup\Fpdi\PdfParser\Type\PdfDictionary;
+use Wayup\Fpdi\PdfParser\Type\PdfIndirectObject;
+use Wayup\Fpdi\PdfParser\Type\PdfNumeric;
+use Wayup\Fpdi\PdfParser\Type\PdfStream;
+use Wayup\Fpdi\PdfParser\Type\PdfToken;
+use Wayup\Fpdi\PdfParser\Type\PdfTypeException;
 
 /**
  * Class CrossReference
@@ -256,7 +256,7 @@ class CrossReference
 
             throw new CrossReferenceException(
                 'This PDF document probably uses a compression technique which is not supported by the ' .
-                'free parser shipped with FPDI. (See https://www.setasign.com/fpdi-pdf-parser for more details)',
+                'free parser shipped with FPDI. (See https://www.Wayup.com/fpdi-pdf-parser for more details)',
                 CrossReferenceException::COMPRESSED_XREF
             );
         }

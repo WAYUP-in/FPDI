@@ -8,16 +8,16 @@
  * @license   http://opensource.org/licenses/mit-license The MIT License
  */
 
-namespace setasign\Fpdi;
+namespace Wayup\Fpdi;
 
 /**
  * Class TcpdfFpdi
  *
  * This class let you import pages of existing PDF documents into a reusable structure for TCPDF.
  *
- * @deprecated Class was moved to \setasign\Fpdi\Tcpdf\Fpdi
+ * @deprecated Class was moved to \Wayup\Fpdi\Tcpdf\Fpdi
  */
-class TcpdfFpdi extends \setasign\Fpdi\Tcpdf\Fpdi
+class TcpdfFpdi extends \Wayup\Fpdi\Tcpdf\Fpdi
 {
-    // this class is moved to \setasign\Fpdi\Tcpdf\Fpdi
+    // this class is moved to \Wayup\Fpdi\Tcpdf\Fpdi
 }

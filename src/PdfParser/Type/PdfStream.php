@@ -8,18 +8,18 @@
  * @license   http://opensource.org/licenses/mit-license The MIT License
  */
 
-namespace setasign\Fpdi\PdfParser\Type;
+namespace Wayup\Fpdi\PdfParser\Type;
 
-use setasign\Fpdi\PdfParser\CrossReference\CrossReferenceException;
-use setasign\Fpdi\PdfParser\Filter\Ascii85;
-use setasign\Fpdi\PdfParser\Filter\AsciiHex;
-use setasign\Fpdi\PdfParser\Filter\FilterException;
-use setasign\Fpdi\PdfParser\Filter\Flate;
-use setasign\Fpdi\PdfParser\Filter\Lzw;
-use setasign\Fpdi\PdfParser\PdfParser;
-use setasign\Fpdi\PdfParser\PdfParserException;
-use setasign\Fpdi\PdfParser\StreamReader;
-use setasign\FpdiPdfParser\PdfParser\Filter\Predictor;
+use Wayup\Fpdi\PdfParser\CrossReference\CrossReferenceException;
+use Wayup\Fpdi\PdfParser\Filter\Ascii85;
+use Wayup\Fpdi\PdfParser\Filter\AsciiHex;
+use Wayup\Fpdi\PdfParser\Filter\FilterException;
+use Wayup\Fpdi\PdfParser\Filter\Flate;
+use Wayup\Fpdi\PdfParser\Filter\Lzw;
+use Wayup\Fpdi\PdfParser\PdfParser;
+use Wayup\Fpdi\PdfParser\PdfParserException;
+use Wayup\Fpdi\PdfParser\StreamReader;
+use Wayup\FpdiPdfParser\PdfParser\Filter\Predictor;
 
 /**
  * Class representing a PDF stream object

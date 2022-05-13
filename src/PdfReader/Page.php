@@ -8,21 +8,21 @@
  * @license   http://opensource.org/licenses/mit-license The MIT License
  */
 
-namespace setasign\Fpdi\PdfReader;
+namespace Wayup\Fpdi\PdfReader;
 
-use setasign\Fpdi\PdfParser\Filter\FilterException;
-use setasign\Fpdi\PdfParser\PdfParser;
-use setasign\Fpdi\PdfParser\PdfParserException;
-use setasign\Fpdi\PdfParser\Type\PdfArray;
-use setasign\Fpdi\PdfParser\Type\PdfDictionary;
-use setasign\Fpdi\PdfParser\Type\PdfIndirectObject;
-use setasign\Fpdi\PdfParser\Type\PdfNull;
-use setasign\Fpdi\PdfParser\Type\PdfNumeric;
-use setasign\Fpdi\PdfParser\Type\PdfStream;
-use setasign\Fpdi\PdfParser\Type\PdfType;
-use setasign\Fpdi\PdfParser\Type\PdfTypeException;
-use setasign\Fpdi\PdfReader\DataStructure\Rectangle;
-use setasign\Fpdi\PdfParser\CrossReference\CrossReferenceException;
+use Wayup\Fpdi\PdfParser\Filter\FilterException;
+use Wayup\Fpdi\PdfParser\PdfParser;
+use Wayup\Fpdi\PdfParser\PdfParserException;
+use Wayup\Fpdi\PdfParser\Type\PdfArray;
+use Wayup\Fpdi\PdfParser\Type\PdfDictionary;
+use Wayup\Fpdi\PdfParser\Type\PdfIndirectObject;
+use Wayup\Fpdi\PdfParser\Type\PdfNull;
+use Wayup\Fpdi\PdfParser\Type\PdfNumeric;
+use Wayup\Fpdi\PdfParser\Type\PdfStream;
+use Wayup\Fpdi\PdfParser\Type\PdfType;
+use Wayup\Fpdi\PdfParser\Type\PdfTypeException;
+use Wayup\Fpdi\PdfReader\DataStructure\Rectangle;
+use Wayup\Fpdi\PdfParser\CrossReference\CrossReferenceException;
 
 /**
  * Class representing a page of a PDF document

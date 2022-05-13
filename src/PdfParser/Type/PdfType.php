@@ -8,11 +8,11 @@
  * @license   http://opensource.org/licenses/mit-license The MIT License
  */
 
-namespace setasign\Fpdi\PdfParser\Type;
+namespace Wayup\Fpdi\PdfParser\Type;
 
-use setasign\Fpdi\PdfParser\CrossReference\CrossReferenceException;
-use setasign\Fpdi\PdfParser\PdfParser;
-use setasign\Fpdi\PdfParser\PdfParserException;
+use Wayup\Fpdi\PdfParser\CrossReference\CrossReferenceException;
+use Wayup\Fpdi\PdfParser\PdfParser;
+use Wayup\Fpdi\PdfParser\PdfParserException;
 
 /**
  * A class defining a PDF data type

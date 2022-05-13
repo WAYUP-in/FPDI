@@ -8,15 +8,15 @@
  * @license   http://opensource.org/licenses/mit-license The MIT License
  */
 
-namespace setasign\Fpdi\PdfReader\DataStructure;
+namespace Wayup\Fpdi\PdfReader\DataStructure;
 
-use setasign\Fpdi\PdfParser\CrossReference\CrossReferenceException;
-use setasign\Fpdi\PdfParser\PdfParser;
-use setasign\Fpdi\PdfParser\PdfParserException;
-use setasign\Fpdi\PdfParser\Type\PdfArray;
-use setasign\Fpdi\PdfParser\Type\PdfNumeric;
-use setasign\Fpdi\PdfParser\Type\PdfType;
-use setasign\Fpdi\PdfParser\Type\PdfTypeException;
+use Wayup\Fpdi\PdfParser\CrossReference\CrossReferenceException;
+use Wayup\Fpdi\PdfParser\PdfParser;
+use Wayup\Fpdi\PdfParser\PdfParserException;
+use Wayup\Fpdi\PdfParser\Type\PdfArray;
+use Wayup\Fpdi\PdfParser\Type\PdfNumeric;
+use Wayup\Fpdi\PdfParser\Type\PdfType;
+use Wayup\Fpdi\PdfParser\Type\PdfTypeException;
 
 /**
  * Class representing a rectangle

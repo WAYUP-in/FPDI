@@ -3,3 +3,4 @@ vendor
 /composer.phar
 /tests/visual/**/compare/
 /**/.phpunit.result.cache
+.idea

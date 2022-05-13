@@ -3,15 +3,15 @@
 /**
  * This file is part of FPDI
  *
- * @package   setasign\Fpdi
- * @copyright Copyright (c) 2020 Setasign GmbH & Co. KG (https://www.setasign.com)
+ * @package   Wayup\Fpdi
+ * @copyright Copyright (c) 2020 Wayup GmbH & Co. KG (https://www.Wayup.com)
  * @license   http://opensource.org/licenses/mit-license The MIT License
  */
 
-namespace setasign\Fpdi\PdfParser\CrossReference;
+namespace Wayup\Fpdi\PdfParser\CrossReference;
 
-use setasign\Fpdi\PdfParser\PdfParser;
-use setasign\Fpdi\PdfParser\StreamReader;
+use Wayup\Fpdi\PdfParser\PdfParser;
+use Wayup\Fpdi\PdfParser\StreamReader;
 
 /**
  * Class FixedReader

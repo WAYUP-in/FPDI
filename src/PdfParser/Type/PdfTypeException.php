@@ -8,9 +8,9 @@
  * @license   http://opensource.org/licenses/mit-license The MIT License
  */
 
-namespace setasign\Fpdi\PdfParser\Type;
+namespace Wayup\Fpdi\PdfParser\Type;
 
-use setasign\Fpdi\PdfParser\PdfParserException;
+use Wayup\Fpdi\PdfParser\PdfParserException;
 
 /**
  * Exception class for pdf type classes

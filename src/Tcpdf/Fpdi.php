@@ -8,20 +8,20 @@
  * @license   http://opensource.org/licenses/mit-license The MIT License
  */
 
-namespace setasign\Fpdi\Tcpdf;
+namespace Wayup\Fpdi\Tcpdf;
 
-use setasign\Fpdi\FpdiTrait;
-use setasign\Fpdi\PdfParser\CrossReference\CrossReferenceException;
-use setasign\Fpdi\PdfParser\Filter\AsciiHex;
-use setasign\Fpdi\PdfParser\PdfParserException;
-use setasign\Fpdi\PdfParser\Type\PdfHexString;
-use setasign\Fpdi\PdfParser\Type\PdfIndirectObject;
-use setasign\Fpdi\PdfParser\Type\PdfNull;
-use setasign\Fpdi\PdfParser\Type\PdfNumeric;
-use setasign\Fpdi\PdfParser\Type\PdfStream;
-use setasign\Fpdi\PdfParser\Type\PdfString;
-use setasign\Fpdi\PdfParser\Type\PdfType;
-use setasign\Fpdi\PdfParser\Type\PdfTypeException;
+use Wayup\Fpdi\FpdiTrait;
+use Wayup\Fpdi\PdfParser\CrossReference\CrossReferenceException;
+use Wayup\Fpdi\PdfParser\Filter\AsciiHex;
+use Wayup\Fpdi\PdfParser\PdfParserException;
+use Wayup\Fpdi\PdfParser\Type\PdfHexString;
+use Wayup\Fpdi\PdfParser\Type\PdfIndirectObject;
+use Wayup\Fpdi\PdfParser\Type\PdfNull;
+use Wayup\Fpdi\PdfParser\Type\PdfNumeric;
+use Wayup\Fpdi\PdfParser\Type\PdfStream;
+use Wayup\Fpdi\PdfParser\Type\PdfString;
+use Wayup\Fpdi\PdfParser\Type\PdfType;
+use Wayup\Fpdi\PdfParser\Type\PdfTypeException;
 
 /**
  * Class Fpdi

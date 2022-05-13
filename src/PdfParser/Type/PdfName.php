@@ -8,10 +8,10 @@
  * @license   http://opensource.org/licenses/mit-license The MIT License
  */
 
-namespace setasign\Fpdi\PdfParser\Type;
+namespace Wayup\Fpdi\PdfParser\Type;
 
-use setasign\Fpdi\PdfParser\StreamReader;
-use setasign\Fpdi\PdfParser\Tokenizer;
+use Wayup\Fpdi\PdfParser\StreamReader;
+use Wayup\Fpdi\PdfParser\Tokenizer;
 
 /**
  * Class representing a PDF name object

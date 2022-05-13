@@ -8,9 +8,9 @@
  * @license   http://opensource.org/licenses/mit-license The MIT License
  */
 
-namespace setasign\Fpdi\PdfReader;
+namespace Wayup\Fpdi\PdfReader;
 
-use setasign\Fpdi\FpdiException;
+use Wayup\Fpdi\FpdiException;
 
 /**
  * Exception for the pdf reader class

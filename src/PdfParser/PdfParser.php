@@ -8,23 +8,23 @@
  * @license   http://opensource.org/licenses/mit-license The MIT License
  */
 
-namespace setasign\Fpdi\PdfParser;
+namespace Wayup\Fpdi\PdfParser;
 
-use setasign\Fpdi\PdfParser\CrossReference\CrossReference;
-use setasign\Fpdi\PdfParser\CrossReference\CrossReferenceException;
-use setasign\Fpdi\PdfParser\Type\PdfArray;
-use setasign\Fpdi\PdfParser\Type\PdfBoolean;
-use setasign\Fpdi\PdfParser\Type\PdfDictionary;
-use setasign\Fpdi\PdfParser\Type\PdfHexString;
-use setasign\Fpdi\PdfParser\Type\PdfIndirectObject;
-use setasign\Fpdi\PdfParser\Type\PdfIndirectObjectReference;
-use setasign\Fpdi\PdfParser\Type\PdfName;
-use setasign\Fpdi\PdfParser\Type\PdfNull;
-use setasign\Fpdi\PdfParser\Type\PdfNumeric;
-use setasign\Fpdi\PdfParser\Type\PdfStream;
-use setasign\Fpdi\PdfParser\Type\PdfString;
-use setasign\Fpdi\PdfParser\Type\PdfToken;
-use setasign\Fpdi\PdfParser\Type\PdfType;
+use Wayup\Fpdi\PdfParser\CrossReference\CrossReference;
+use Wayup\Fpdi\PdfParser\CrossReference\CrossReferenceException;
+use Wayup\Fpdi\PdfParser\Type\PdfArray;
+use Wayup\Fpdi\PdfParser\Type\PdfBoolean;
+use Wayup\Fpdi\PdfParser\Type\PdfDictionary;
+use Wayup\Fpdi\PdfParser\Type\PdfHexString;
+use Wayup\Fpdi\PdfParser\Type\PdfIndirectObject;
+use Wayup\Fpdi\PdfParser\Type\PdfIndirectObjectReference;
+use Wayup\Fpdi\PdfParser\Type\PdfName;
+use Wayup\Fpdi\PdfParser\Type\PdfNull;
+use Wayup\Fpdi\PdfParser\Type\PdfNumeric;
+use Wayup\Fpdi\PdfParser\Type\PdfStream;
+use Wayup\Fpdi\PdfParser\Type\PdfString;
+use Wayup\Fpdi\PdfParser\Type\PdfToken;
+use Wayup\Fpdi\PdfParser\Type\PdfType;
 
 /**
  * A PDF parser class

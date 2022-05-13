@@ -8,7 +8,7 @@
  * @license   http://opensource.org/licenses/mit-license The MIT License
  */
 
-namespace setasign\Fpdi\PdfParser;
+namespace Wayup\Fpdi\PdfParser;
 
 /**
  * A tokenizer class.
